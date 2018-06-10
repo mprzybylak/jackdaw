@@ -18,3 +18,5 @@ val testDependencies = Seq(
   "org.mockito" % "mockito-core" % mockito % Test,
   "net.manub" %% "scalatest-embedded-kafka" % embeddedKafkaVersion % Test
 )
+
+libraryDependencies ++= dependencies ++ testDependencies
